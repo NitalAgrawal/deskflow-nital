@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Replace with Render URL when deployed
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:10000';
+const API_URL = import.meta.env.VITE_API_URL || 'https://deskflow-nital.onrender.com';
 
 const api = axios.create({
   baseURL: `${API_URL}/tickets`,
